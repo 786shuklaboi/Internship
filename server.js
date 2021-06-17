@@ -15,9 +15,13 @@ app.listen(8080, () => {
 
 
 function sum(num1, num2){
-
+// add two numbers
 const sum = num1 + num2;
 
-
+// display the sum
 return('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 }
+
+// addNumbers: function sum(num1, num2){
+//     return num1 + num2;
+// }
