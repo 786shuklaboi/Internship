@@ -22,6 +22,10 @@ const sum = num1 + num2;
 return('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 }
 
+if (module && module.exports) {
+    module.exports = sum;
+ }
+
 // addNumbers: function sum(num1, num2){
 //     return num1 + num2;
 // }
